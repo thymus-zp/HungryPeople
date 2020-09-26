@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hunger</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="burger-btn">
+                <span></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <div class="menu__left">
+                        <li class="menu__list-item">
+                            <a href="#home" class="menu__list-link">HOME</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#about" class="menu__list-link">ABOUT</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#team" class="menu__list-link">TEAM</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#booking" class="menu__list-link">BOOKING</a>
+                        </li>
+                    </div>
+                    <div class="menu__right">
+                        <li class="menu__list-item">
+                            <a href="#specialities" class="menu__list-link">SPECIALITIES</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#menu" class="menu__list-link">MENU</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#events" class="menu__list-link">EVENTS</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#contact" class="menu__list-link">CONTACT</a>
+                        </li>    
+                    </div>
+                </ul>
+            </nav>
+            <div class="vector"></div>
+            <div class="header__content">
+                <div class="header__content-worktime">
+                    <span class="header-worktime worktime">Mon - Fri: 8AM - 10PM, Sat - Sun: 8AM - 3AM</span>
+                </div>
+                <div class="header__content-main">
+                    <div class="header__subtitle subtitle">
+                        <span>RESTAURANT</span>
+                    </div>
+                    <div class="header-maintitle">
+                        <h1 class="header-tagline">hungry people</h1>
+                    </div>
+                    <div class="header-btns">
+                        <button class="header-btn header-booking">BOOK TABLE</button>
+                        <button class="header-btn header-explore">EXPLORE</button>
+                    </div>
+                </div>
+                <div class="header__content-social">
+                    <a href="#" class="social-link">
+                        <img src="images/Facebook.png" alt="facebook" class="social-image facebook-icon">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="images/twitter.svg" alt="twitter" class="social-image twitter-icon">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="images/instagramm.svg" alt="instagram" class="social-image">
+                    </a>
+                </div>
+            </div>
+            <div class="scrolldown-wrapper">
+                <a href="#about"><div class="scrolldown-btn"></div></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__main">
+                    <div class="about__main-title">
+                        <h3 class="title">about us</h3>
+                    </div>
+                    <div class="about__main-text text-content">
+                        <p class="about__main-bold text-bold">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna
+                        </p>
+                        <p class="about__main-regular text-regular">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__image image-wrapper rectangle-right">
+                    <img src="images/about-img.jpg" alt="about us" class="about-img image-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <div class="team__subtitle subtitle">
+                <span>
+                    OUR TEAM
+                </span>
+            </div>
+            <div class="team__content">
+                <div class="team__image image-wrapper rectangle-left">
+                    <img src="images/team-img.jpg" alt="our team" class="team-img image-shadow">
+                </div>
+                <div class="team__main">
+                    <div class="team__main-title">
+                        <h3 class="title">
+                            MASTER CHEF
+                        </h3>
+                    </div>
+                    <div class="team__main-text text-content">
+                        <p class="team__main-bold text-bold">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna
+                        </p>
+                        <p class="team__main-regular text-regular">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="booking__content">
+                <div class="booking__main">
+                    <div class="booking__main-title">
+                        <h3 class="title">
+                            book a table
+                        </h3>
+                    </div>
+                    <form action="booking.php" method="GET" class="booking__form">
+                        <input type="text" name="client_name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="tel" name="phone_number" placeholder="Phone">
+                        <select name="amount">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                        <input type="date" name="date" placeholder="Date (mm/dd)">
+                        <input type="time" name="time" placeholder="Time">
+                        <button type="submit" class="booking-btn">BOOK NOW</button>
+                    </form>
+                </div>
+                <div class="booking__image image-wrapper rectangle-right">
+                    <img src="images/book-img.jpg" alt="book a table" class="book-img image-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specialities" class="specialities">
+        <div class="container">
+            <div class="specialities__subtitle subtitle">
+                <span>
+                    specialties
+                </span>
+            </div>
+            <div class="slider">
+                <div class="slider__item specialities__content">
+                    <div class="specialities__image image-wrapper  rectangle-left">
+                        <img src="images/speciality-img.jpg" alt="speciality" class="specialties-img image-shadow">
+                    </div>
+                    <div class="specialities__main">
+                        <div class="specialities__main-title">
+                            <h3 class="title">
+                                chocolate pancakes
+                            </h3>
+                        </div>
+                        <div class="specialities__main-text text-content">
+                            <p class="specialities__main-bold text-bold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna
+                            </p>
+                            <p class="specialities__main-regular text-regular">
+                                Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item specialities__content">
+                    <div class="specialities__image image-wrapper rectangle-left">
+                        <img src="images/speciality-img.jpg" alt="speciality" class="specialties-img image-shadow rectangle-left">
+                    </div>
+                    <div class="specialities__main">
+                        <div class="specialities__main-title">
+                            <h3 class="title">
+                                chocolate pancakes
+                            </h3>
+                        </div>
+                        <div class="specialities__main-text text-content">
+                            <p class="specialities__main-bold text-bold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna
+                            </p>
+                            <p class="specialities__main-regular text-regular">
+                                Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item specialities__content">
+                    <div class="specialities__image image-wrapper rectangle-left">
+                        <img src="images/speciality-img.jpg" alt="speciality" class="specialties-img image-shadow rectangle-left">
+                    </div>
+                    <div class="specialities__main">
+                        <div class="specialities__main-title">
+                            <h3 class="title">
+                                chocolate pancakes
+                            </h3>
+                        </div>
+                        <div class="specialities__main-text text-content">
+                            <p class="specialities__main-bold text-bold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna
+                            </p>
+                            <p class="specialities__main-regular text-regular">
+                                Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="food-menu">
+        <div class="container">
+            <div class="food__title">
+                <h3 class="title">
+                    DELICIOUS MENU
+                </h3>
+            </div>
+            <div class="food__description">
+                <p class="food-description text-bold">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                </p>
+            </div>
+            <div class="food-tabs">
+                <input type="radio" name="tab-btn" id="tab-btn-1" checked>
+                <label for="tab-btn-1" class="tabs__item">ВPIZZA</label>
+                <input type="radio" name="tab-btn" id="tab-btn-2">
+                <label for="tab-btn-2" class="tabs__item">SOUPE</label>
+                <input type="radio" name="tab-btn" id="tab-btn-3">
+                <label for="tab-btn-3" class="tabs__item">PASTA</label>
+                <input type="radio" name="tab-btn" id="tab-btn-4">
+                <label for="tab-btn-4" class="tabs__item">DESERT</label>
+                <input type="radio" name="tab-btn" id="tab-btn-5">
+                <label for="tab-btn-5" class="tabs__item">WINE</label>
+                <input type="radio" name="tab-btn" id="tab-btn-6">
+                <label for="tab-btn-6" class="tabs__item">BEER</label>
+                <input type="radio" name="tab-btn" id="tab-btn-7">
+                <label for="tab-btn-7" class="tabs__item">DRINKS</label>
+
+                <div id="content-1" class="tabs__item-content">
+                </div>
+                <div id="content-2" class="tabs__item-content">
+                </div>
+                <div id="content-3" class="tabs__item-content">
+                </div>
+                <div id="content-4" class="tabs__item-content">
+                </div>
+                <div id="content-5" class="tabs__item-content">
+                </div>
+                <div id="content-6" class="tabs__item-content">
+                </div>
+                <div id="content-7" class="tabs__item-content">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <div class="container">
+            <div class="events__subtitle subtitle">
+                <span>PRIVATE EVENTS</span>
+            </div>
+            <div class="events__content">
+                <div class="event-1">
+                    <div class="image-wrapper rectangle-left">
+                        <img src="images/event-weddings.jpg" alt="wedding" class="event-img rectangle-left">
+                    </div>
+                    <span class="event-description description-right">weddings</span>
+                </div>
+                <div class="event-2">
+                    <div class="image-wrapper rectangle-right">
+                        <img src="images/event-corporate.jpg" alt="corporate parties" class="event-img">
+                    </div>
+                    <span class="event-description description-left">corporate parties</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contant__title">
+                <h3 class="title">CONTACT</h3>
+            </div>
+            <div class="contact__text">
+                <span class="text-content text-bold">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                </span>
+            </div>
+            <form action="contact.php" method="GET" class="contact__form">
+                <div class="contact__form-client">
+                    <div class="contact__form-name">
+                        <input type="text" class="contact-name" placeholder="Name">
+                    </div>
+                    <div class="contact__form-email">
+                        <input type="email" class="contact-email" placeholder="Email">
+                    </div>
+                    <div class="contact__form-phone">
+                        <input type="tel" class="contact-phone" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="contact__form-message">
+                    <textarea name="contact" id="message" class="contact-message" placeholder="Message"></textarea>
+                </div>
+                <div class="contact__form-bottom">
+                    <div class="contact__form-info">
+                        <span class="contact-info info-adress">5th London Boulevard, U.K.</span>
+                        <a href="tel:+40729131637" class="contact-info info-phone">+40 729 131 637</a>
+                        <a href="mailto:office@hunger.com" class="contact-info info-email">office@hunger.com</a>
+                    </div>
+                    <div class="contact__form-button">
+                        <button class="contact-button" type="submit">send message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span class="footer-text title">coded by thymus</span>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
